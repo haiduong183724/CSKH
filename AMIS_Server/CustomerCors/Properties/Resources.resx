@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Msg_BackEnd_Err" xml:space="preserve">
+    <value>Serve đang có lỗi xảy ra</value>
+    <comment>lỗi server</comment>
+  </data>
+  <data name="Msg_Delete_Successfull" xml:space="preserve">
+    <value>Xóa dữ liệu thành công</value>
+  </data>
+  <data name="Msg_Duplicate_Employee_Err" xml:space="preserve">
+    <value>Mã khách hàng đã tồn tại trong hệ thống</value>
+    <comment>Mã khách hàng bị trùng lặp</comment>
+  </data>
+  <data name="Msg_Insert_Successfull" xml:space="preserve">
+    <value>Thêm dữ liệu thành công</value>
+  </data>
+  <data name="Msg_Invalid_Date" xml:space="preserve">
+    <value>Giá trị ngày phải nằm trong phạm vi 1/1/1900 đến 1/1/2100</value>
+    <comment>Phạm vi của ngày nằm ngoài giá trị</comment>
+  </data>
+  <data name="Msg_Invalid_Email" xml:space="preserve">
+    <value>Giá trị Email không hợp lệ</value>
+    <comment>Giá trị email không hợp lệ</comment>
+  </data>
+  <data name="Msg_Invalid_Money" xml:space="preserve">
+    <value>Giá trị của tiền phải là số dương</value>
+    <comment>Giá trị tiền &lt;0</comment>
+  </data>
+  <data name="Msg_Invalid_NumberField" xml:space="preserve">
+    <value>Trường nhập phải là một chuỗi kí tự</value>
+  </data>
+  <data name="Msg_Invalid_Phone" xml:space="preserve">
+    <value>Giá trị số điện thoại nhập không hợp lê</value>
+  </data>
+  <data name="Msg_Nocontent" xml:space="preserve">
+    <value>Dữ liệu không có trong hệ thống</value>
+    <comment>dữ liệu cần tìm kiếm không có</comment>
+  </data>
+  <data name="Msg_Over_Length" xml:space="preserve">
+    <value>Chiều dài của trường này vượt quá giá trị cho phép</value>
+    <comment>Giá trị nhập vượt quá giá trị cho phép</comment>
+  </data>
+  <data name="Msg_Required_Err" xml:space="preserve">
+    <value>Thông tin này không được phép để trống</value>
+    <comment>thông tin bị trống</comment>
+  </data>
+  <data name="Msg_Sucessfull" xml:space="preserve">
+    <value>Lấy dữ liệu thành công</value>
+    <comment>Lấy dữ liệu thành công</comment>
+  </data>
+  <data name="Msg_Update_Successfull" xml:space="preserve">
+    <value>Chỉnh sửa thành công</value>
+  </data>
+</root>

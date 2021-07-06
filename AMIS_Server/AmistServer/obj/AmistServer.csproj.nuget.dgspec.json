@@ -1,0 +1,220 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\AmistServer\\AmistServer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\AmistServer\\AmistServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\AmistServer\\AmistServer.csproj",
+        "projectName": "AmistServer",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\AmistServer\\AmistServer.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\AmistServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\CustomerCors\\CustomerCors.csproj": {
+                "projectPath": "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\CustomerCors\\CustomerCors.csproj"
+              },
+              "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\InterStructor\\InterStructor.csproj": {
+                "projectPath": "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\InterStructor\\InterStructor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[1.3.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\CustomerCors\\CustomerCors.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\CustomerCors\\CustomerCors.csproj",
+        "projectName": "CustomerCors",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\CustomerCors\\CustomerCors.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\CustomerCors\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\InterStructor\\InterStructor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\InterStructor\\InterStructor.csproj",
+        "projectName": "InterStructor",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\InterStructor\\InterStructor.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\InterStructor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\CustomerCors\\CustomerCors.csproj": {
+                "projectPath": "C:\\Users\\Admin\\source\\repos\\MF848_AMIST\\AMIS_Server\\CustomerCors\\CustomerCors.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[1.3.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
